@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:6
 MAINTAINER Javier Vergara <javier.vergara-at-wenuy.com>
 RUN apt-get -q -y install npm
 
