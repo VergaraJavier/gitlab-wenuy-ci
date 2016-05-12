@@ -1,6 +1,6 @@
-FROM node:6
+FROM node:latest
 MAINTAINER Javier Vergara <javier.vergara-at-wenuy.com>
-RUN apt-get -q -y install npm
+RUN apt-get -y install npm
 
 RUN curl -sL https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
     echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' >> /etc/apt/sources.list.d/google.list && \

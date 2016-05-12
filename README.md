@@ -1,6 +1,6 @@
 This image contains:
 * Ubuntu Trusty
-* Node 6
+* Node latest
 * web-component-tester
 * Bower
 * Firefox
