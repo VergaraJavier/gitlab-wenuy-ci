@@ -1,6 +1,8 @@
 FROM node:latest
 MAINTAINER Javier Vergara <javier.vergara-at-wenuy.com>
 
+RUN apt-get install default-jre
+
 RUN echo 'deb http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main' > /etc/apt/sources.list.d/ubuntuzilla.list
 RUN apt-key adv --recv-keys --keyserver keyserver.ubuntu.com C1289A29
 

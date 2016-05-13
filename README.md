@@ -1,5 +1,5 @@
 This image contains:
-* Ubuntu Trusty
+* Debian 8 ("jessie")
 * Node latest
 * web-component-tester
 * Bower
