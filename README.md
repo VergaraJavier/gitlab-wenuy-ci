@@ -1,6 +1,6 @@
 This image contains:
-* Debian 8 ("jessie")
-* Node latest
+* Ubuntu xenial
+* Node 5.x
 * web-component-tester
 * Bower
 * Firefox
