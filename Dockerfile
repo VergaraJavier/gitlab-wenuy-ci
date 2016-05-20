@@ -39,4 +39,4 @@ RUN npm install -g web-component-tester bower
 RUN Xvfb :10 -ac &
 ENV DISPLAY :10
 #disable selinux
-RUN setenforce 0
+RUN echo 0 > /selinux/enforce
