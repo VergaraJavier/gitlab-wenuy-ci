@@ -38,3 +38,5 @@ RUN curl -sL https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
 RUN npm install -g web-component-tester bower
 RUN Xvfb :10 -ac &
 ENV DISPLAY :10
+#disable selinux
+RUN setenforce 0
